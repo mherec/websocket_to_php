@@ -56,8 +56,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     }
 
     // Function to log messages to the console and the appropriate log box in the UI
-    function consoleLog(data, type) {
-        let reStyle = "";
+    function consoleLog(data, type) { 
         // Depending on the type of message, append it to the log box with a specific style
         switch (type) {
             case 'ok':
